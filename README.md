@@ -289,9 +289,9 @@ If you use this code, please cite the repository and the clDice loss it builds o
 ```bibtex
 @misc{liverseg_constrained,
   title  = {Anatomically- and Connectivity-Constrained Multi-Structure Liver CT Segmentation},
-  author = {<Your Name>},
+  author = {Akash Nath, Sagnikta Saha},
   year   = {2026},
-  howpublished = {\url{https://github.com/<your-username>/<your-repo>}}
+  howpublished = {\url{https://github.com/akashnathai/multi-structure-liver-ct}}
 }
 
 @inproceedings{shit2021cldice,
