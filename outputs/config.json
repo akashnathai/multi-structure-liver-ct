@@ -1,0 +1,90 @@
+{
+  "data_root": "x:\\liver_ai\\3Dircadb1\\3Dircadb1",
+  "work_dir": "x:\\liver_ai",
+  "outputs_dir": "x:\\liver_ai\\outputs",
+  "seed": 42,
+  "target_spacing_mm": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "hu_min": -200.0,
+  "hu_max": 250.0,
+  "base_channels": 32,
+  "leaky_slope": 0.1,
+  "use_checkpointing": true,
+  "patch_size": [
+    128,
+    128,
+    64
+  ],
+  "batch_size": 2,
+  "patches_per_volume": 8,
+  "foreground_ratio": 0.6,
+  "num_workers": 0,
+  "n_folds": 5,
+  "internal_val_fraction": 0.2,
+  "max_epochs": 150,
+  "lr": 0.0001,
+  "weight_decay": 1e-05,
+  "cosine_T0": 50,
+  "cosine_T_mult": 2,
+  "grad_clip_norm": 1.0,
+  "use_amp": true,
+  "early_stop_patience": 30,
+  "log_every": 1,
+  "val_every": 5,
+  "w_liver": 1.0,
+  "w_tumour": 2.0,
+  "w_vessel": 1.0,
+  "focal_gamma": 2.0,
+  "focal_alpha": 0.75,
+  "cldice_iters": 5,
+  "lambda_contain": 0.5,
+  "lambda_exclude": 0.5,
+  "constraint_warmup_start": 10,
+  "constraint_warmup_end": 30,
+  "use_cldice": true,
+  "use_constraints": true,
+  "aug_flip_prob": 0.5,
+  "aug_rot90_prob": 0.5,
+  "aug_noise_sigma_max": 0.05,
+  "aug_brightness": 0.1,
+  "aug_contrast": 0.1,
+  "sw_overlap": 0.5,
+  "sw_overlap_val": 0.25,
+  "sw_sigma_scale": 0.125,
+  "sw_batch_size": 1,
+  "fig_dpi": 200,
+  "fig_format": "png",
+  "memory_ladder": [
+    {
+      "patch_size": [
+        128,
+        128,
+        64
+      ],
+      "base_channels": 32,
+      "batch_size": 2
+    },
+    {
+      "patch_size": [
+        96,
+        96,
+        96
+      ],
+      "base_channels": 24,
+      "batch_size": 1
+    },
+    {
+      "patch_size": [
+        64,
+        64,
+        64
+      ],
+      "base_channels": 16,
+      "batch_size": 1
+    }
+  ],
+  "smoke_test": false
+}

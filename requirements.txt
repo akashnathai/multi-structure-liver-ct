@@ -1,0 +1,16 @@
+# Core scientific stack
+numpy>=1.26,<2.0
+scipy>=1.11
+pandas>=2.1
+matplotlib>=3.8
+scikit-image>=0.22
+tqdm>=4.66
+
+# Medical imaging
+pydicom>=2.4
+SimpleITK>=2.3
+
+# Deep learning (install the CUDA build matching your GPU/driver separately, e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# This project was developed against torch 2.5.1+cu121 on an 8 GB GPU.)
+torch>=2.2

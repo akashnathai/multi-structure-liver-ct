@@ -1,0 +1,1080 @@
+{
+  "dataset": "3D-IRCADb-01",
+  "n_patients": 20,
+  "structures": [
+    "liver",
+    "tumour",
+    "vessel"
+  ],
+  "patients": [
+    {
+      "patient_id": "01",
+      "patient_index": 1,
+      "n_slices": 129,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.57,
+        0.57,
+        1.6
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bone",
+        "leftkidney",
+        "leftlung",
+        "liver",
+        "liverkyst",
+        "livertumor01",
+        "livertumor02",
+        "livertumor03",
+        "livertumor04",
+        "livertumor05",
+        "livertumor06",
+        "livertumor07",
+        "portalvein",
+        "rightkidney",
+        "rightlung",
+        "skin",
+        "spleen",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor01",
+          "livertumor02",
+          "livertumor03",
+          "livertumor04",
+          "livertumor05",
+          "livertumor06",
+          "livertumor07"
+        ],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 2865131,
+        "tumour": 214268,
+        "vessel": 361636
+      },
+      "tumour_burden_ratio": 0.07478471315971241
+    },
+    {
+      "patient_id": "02",
+      "patient_index": 2,
+      "n_slices": 172,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.782,
+        0.782,
+        1.6
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "bone",
+        "gallbladder",
+        "liver",
+        "livertumor",
+        "portalvein",
+        "skin",
+        "venacava"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor"
+        ],
+        "vessel": [
+          "portalvein",
+          "venacava"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 1648024,
+        "tumour": 14062,
+        "vessel": 64308
+      },
+      "tumour_burden_ratio": 0.008532642728503953
+    },
+    {
+      "patient_id": "03",
+      "patient_index": 3,
+      "n_slices": 200,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.625,
+        0.625,
+        1.25
+      ],
+      "hu_range": [
+        -1024.0,
+        3071.0
+      ],
+      "raw_mask_names": [
+        "Stones",
+        "biliarysystem",
+        "bone",
+        "kidneys",
+        "leftlung",
+        "liver",
+        "livertumor",
+        "metal",
+        "portalvein",
+        "rightlung",
+        "skin",
+        "spleen",
+        "venacava"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor"
+        ],
+        "vessel": [
+          "portalvein",
+          "venacava"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 2375079,
+        "tumour": 14252,
+        "vessel": 186997
+      },
+      "tumour_burden_ratio": 0.006000642504944046
+    },
+    {
+      "patient_id": "04",
+      "patient_index": 4,
+      "n_slices": 91,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.7422,
+        0.7422,
+        2.0
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bone",
+        "liver",
+        "livertumor",
+        "portalvein",
+        "skin",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor"
+        ],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 1132427,
+        "tumour": 6736,
+        "vessel": 283456
+      },
+      "tumour_burden_ratio": 0.005948286291301779
+    },
+    {
+      "patient_id": "05",
+      "patient_index": 5,
+      "n_slices": 139,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.782,
+        0.782,
+        1.6
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bone",
+        "leftkidney",
+        "leftsurrenalgland",
+        "leftsurretumor",
+        "liver",
+        "lungs",
+        "pancreas",
+        "portalvein",
+        "rightkidney",
+        "rightsurrenalgland",
+        "rightsurretumor",
+        "skin",
+        "spleen",
+        "stomach",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "leftsurretumor",
+          "rightsurretumor"
+        ],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 2124505,
+        "tumour": 5730,
+        "vessel": 280170
+      },
+      "tumour_burden_ratio": 0.0026970988536153128
+    },
+    {
+      "patient_id": "06",
+      "patient_index": 6,
+      "n_slices": 135,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.782,
+        0.782,
+        1.6
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bone",
+        "leftkidney",
+        "liver",
+        "livertumor",
+        "portalvein",
+        "rightkidney",
+        "skin",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor"
+        ],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 1828493,
+        "tumour": 434721,
+        "vessel": 399936
+      },
+      "tumour_burden_ratio": 0.23774824404577977
+    },
+    {
+      "patient_id": "07",
+      "patient_index": 7,
+      "n_slices": 151,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.782,
+        0.782,
+        1.6
+      ],
+      "hu_range": [
+        -1023.0,
+        1024.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bone",
+        "leftkidney",
+        "leftlung",
+        "leftsurrenalgland",
+        "liver",
+        "portalvein",
+        "rightkidney",
+        "rightlung",
+        "skin",
+        "spleen",
+        "tumor",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "tumor"
+        ],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 1461944,
+        "tumour": 683556,
+        "vessel": 323924
+      },
+      "tumour_burden_ratio": 0.46756647313440186
+    },
+    {
+      "patient_id": "08",
+      "patient_index": 8,
+      "n_slices": 124,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.561,
+        0.561,
+        1.6
+      ],
+      "hu_range": [
+        -2048.0,
+        1525.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bone",
+        "liver",
+        "livertumor01",
+        "livertumor02",
+        "livertumor03",
+        "portalvein",
+        "skin",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor01",
+          "livertumor02",
+          "livertumor03"
+        ],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 3215090,
+        "tumour": 20318,
+        "vessel": 559414
+      },
+      "tumour_burden_ratio": 0.00631957425764131
+    },
+    {
+      "patient_id": "09",
+      "patient_index": 9,
+      "n_slices": 111,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.873,
+        0.873,
+        2.0
+      ],
+      "hu_range": [
+        -1024.0,
+        1053.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bone",
+        "gallbladder",
+        "liver",
+        "liverkyste",
+        "livertumor",
+        "portalvein",
+        "skin",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor"
+        ],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 1265420,
+        "tumour": 39484,
+        "vessel": 352501
+      },
+      "tumour_burden_ratio": 0.031202288568222408
+    },
+    {
+      "patient_id": "10",
+      "patient_index": 10,
+      "n_slices": 122,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.736,
+        0.736,
+        1.6
+      ],
+      "hu_range": [
+        -2048.0,
+        1644.0
+      ],
+      "raw_mask_names": [
+        "bone",
+        "liver",
+        "livertumor",
+        "portalvein1",
+        "skin",
+        "venacava"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor"
+        ],
+        "vessel": [
+          "portalvein1",
+          "venacava"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 1871804,
+        "tumour": 14981,
+        "vessel": 97958
+      },
+      "tumour_burden_ratio": 0.008003508914394884
+    },
+    {
+      "patient_id": "11",
+      "patient_index": 11,
+      "n_slices": 132,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.72,
+        0.72,
+        1.6
+      ],
+      "hu_range": [
+        -2048.0,
+        3247.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bone",
+        "gallbladder",
+        "leftkidney",
+        "leftsurrenalgland",
+        "liver",
+        "portalvein",
+        "rightkidney",
+        "rightsurrenalgland",
+        "skin",
+        "venacava"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venacava"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": false,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 1692716,
+        "tumour": 0,
+        "vessel": 270759
+      },
+      "tumour_burden_ratio": 0.0
+    },
+    {
+      "patient_id": "12",
+      "patient_index": 12,
+      "n_slices": 260,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.6797,
+        0.6797,
+        1.0
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bone",
+        "liver",
+        "livertumor",
+        "portalvein",
+        "skin",
+        "venacava"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor"
+        ],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venacava"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 3341433,
+        "tumour": 348986,
+        "vessel": 439876
+      },
+      "tumour_burden_ratio": 0.10444201634448454
+    },
+    {
+      "patient_id": "13",
+      "patient_index": 13,
+      "n_slices": 122,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.671,
+        0.671,
+        1.6
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bone",
+        "liver",
+        "livertumor",
+        "portalvein",
+        "skin",
+        "venacava"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor"
+        ],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venacava"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 2063109,
+        "tumour": 122480,
+        "vessel": 354862
+      },
+      "tumour_burden_ratio": 0.05936671305297005
+    },
+    {
+      "patient_id": "14",
+      "patient_index": 14,
+      "n_slices": 113,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.72,
+        0.72,
+        1.6
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "bone",
+        "liver",
+        "metastasectomie",
+        "portalvein",
+        "skin",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [],
+        "vessel": [
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": false,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 1633641,
+        "tumour": 0,
+        "vessel": 149437
+      },
+      "tumour_burden_ratio": 0.0
+    },
+    {
+      "patient_id": "15",
+      "patient_index": 15,
+      "n_slices": 125,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.782,
+        0.782,
+        1.6
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "bone",
+        "liver",
+        "livertumor",
+        "portalvein",
+        "skin",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor"
+        ],
+        "vessel": [
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 1389572,
+        "tumour": 1638,
+        "vessel": 115299
+      },
+      "tumour_burden_ratio": 0.0011787802287323004
+    },
+    {
+      "patient_id": "16",
+      "patient_index": 16,
+      "n_slices": 155,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.698,
+        0.698,
+        1.6
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "bone",
+        "liver",
+        "livertumor",
+        "portalvein",
+        "skin",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor"
+        ],
+        "vessel": [
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 2717185,
+        "tumour": 7337,
+        "vessel": 206264
+      },
+      "tumour_burden_ratio": 0.002700221000778379
+    },
+    {
+      "patient_id": "17",
+      "patient_index": 17,
+      "n_slices": 119,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.743,
+        0.743,
+        1.6
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bone",
+        "liver",
+        "livertumor1",
+        "livertumor2",
+        "portalvein",
+        "skin",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor1",
+          "livertumor2"
+        ],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 2106497,
+        "tumour": 185990,
+        "vessel": 300090
+      },
+      "tumour_burden_ratio": 0.08829350338500364
+    },
+    {
+      "patient_id": "18",
+      "patient_index": 18,
+      "n_slices": 74,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.7422,
+        0.7422,
+        2.5
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "bone",
+        "gallbladder",
+        "liver",
+        "livertumor",
+        "portalvein",
+        "skin",
+        "venacava"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumor"
+        ],
+        "vessel": [
+          "portalvein",
+          "venacava"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 1220564,
+        "tumour": 4539,
+        "vessel": 75984
+      },
+      "tumour_burden_ratio": 0.0037187726329795077
+    },
+    {
+      "patient_id": "19",
+      "patient_index": 19,
+      "n_slices": 124,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.7031,
+        0.7031,
+        4.0
+      ],
+      "hu_range": [
+        -1024.0,
+        1023.0
+      ],
+      "raw_mask_names": [
+        "bone",
+        "gallbladder",
+        "liver",
+        "livercyst",
+        "livertumors",
+        "portalvein",
+        "skin",
+        "venoussystem"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [
+          "livertumors"
+        ],
+        "vessel": [
+          "portalvein",
+          "venoussystem"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": true,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 583208,
+        "tumour": 41416,
+        "vessel": 115490
+      },
+      "tumour_burden_ratio": 0.0710141150327156
+    },
+    {
+      "patient_id": "20",
+      "patient_index": 20,
+      "n_slices": 225,
+      "in_plane": [
+        512,
+        512
+      ],
+      "spacing_mm": [
+        0.8086,
+        0.8086,
+        2.0
+      ],
+      "hu_range": [
+        -1024.0,
+        1024.0
+      ],
+      "raw_mask_names": [
+        "artery",
+        "bladder",
+        "bone",
+        "colon",
+        "gallbladder",
+        "heart",
+        "leftkidney",
+        "liver",
+        "lungs",
+        "pancreas",
+        "portalvein",
+        "rightkidney",
+        "skin",
+        "smallintestin",
+        "spleen",
+        "stomach",
+        "surrenalgland",
+        "uterus",
+        "venacava"
+      ],
+      "sources": {
+        "liver": [
+          "liver"
+        ],
+        "tumour": [],
+        "vessel": [
+          "artery",
+          "portalvein",
+          "venacava"
+        ]
+      },
+      "present": {
+        "liver": true,
+        "tumour": false,
+        "vessel": true
+      },
+      "voxels": {
+        "liver": 1359697,
+        "tumour": 0,
+        "vessel": 295812
+      },
+      "tumour_burden_ratio": 0.0
+    }
+  ]
+}
